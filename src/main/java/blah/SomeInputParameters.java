@@ -1,4 +1,4 @@
 package blah;
 
-public class SomeInputParameters extends PolymorphicParameters implements PolicyInputParameters {
+public class SomeInputParameters implements PolicyInputParameters {
 }

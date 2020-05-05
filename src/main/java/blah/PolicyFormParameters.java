@@ -9,7 +9,4 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
         @JsonSubTypes.Type(value = SomeFormParameters.class, name = "SomeFormParameters")
 })
 public interface PolicyFormParameters {
-    String getType();
-
-    void setType(String type);
 }
